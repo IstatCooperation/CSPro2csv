@@ -7,6 +7,10 @@ The generated multidimensional tables can be converted into a dataset ready to b
 
 ## Repository contents
 
+The cspro2csv file is a Python notebook that contains the notebook code.
+In the data directory, there are the data dictionary (CensusMainShortForm.dcf) and some test tables. The tables are .tbw files resulting from the tabulation operation performed on the Kenya Population Census data using CSPro.
 
 
+## How to run the tool
 
+To run the tool, you need to modify the paths that point to the data dictionary properly, the multidimensional table to be transformed, and the desired output file.
